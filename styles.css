@@ -1,0 +1,294 @@
+/* Styles for Democracy in America, Edited by Paul L. Hebert - This style sheet is free to use from CUNY Student Editions */
+/* Body */
+body {
+  display: block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.5em;
+  margin: 2em auto 3em;
+  padding: 0 1.5em 0;
+}
+/* Basic heading styles */
+h1, h2, h3, h4 {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+h1 {
+  font-size: 2em;
+  font-variant: small-caps;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  font-style: italic;
+  font-weight: normal;
+  margin: 1em 0 2em;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+.sub-heading {
+  font-style: italic;
+  font-size: 1.17em;
+  font-weight: inherit;
+  margin: 0 auto 1em;
+}
+/* ==Start Page (Cover) & Title Page== */
+img.cover-image {
+  margin: 0 auto 0;
+}
+.main-title {
+  font-size: 3.5em;
+  line-height: 1em;
+}
+.subtitle {
+  font-size: 2em;
+  line-height: 1em;
+  margin: -0.5em auto 1em;
+}
+.author {
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 auto 1em;
+}
+.imprint {
+  display: block;
+  margin: 1em auto 0.5em;
+  width: 8em;
+}
+.banner {
+  border-top: 0.2em double;
+  border-bottom: 0.2em double;
+  font-size: 1em;
+  text-align: center;
+  text-indent: 0;
+}
+/* ==About the Text Page== */
+.about-page {
+  display: block;
+  background-color: Gainsboro;
+  background-image: radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent), radial-gradient(circle at 0 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+  background-size: 4em 2em;
+  margin: -2em;
+}
+.about-block {
+  background-color: white;
+  border-style: double;
+  border-size: 0.5em;
+  margin: 0 auto 3em;
+  padding: 2.5em;
+  width: 60%;
+}
+.about-block > hr {
+  max-width: 25%;
+  margin: 1.5em auto;
+}
+p.motto {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.5em;
+  text-align: center;
+  text-indent: 0;
+}
+img.editor-pic {
+  display: block;
+  float: left;
+  padding-right: 1em;
+  width: 8em;
+}
+/* ==General paragraph styles== */
+p {
+  font-size: 1em;
+  text-indent: 2em;
+  margin: 0 auto 1em;
+}
+p.no-indent {
+  text-indent: 0;
+}
+/* Block Quotations */
+div.block-quote {
+  font-size: 1em;
+  margin: 1em 4em 0 4em;
+  max-width: 85%;
+}
+.block-quote > p {
+  text-indent: 0;
+}
+/* ==General Divs== */
+div.section, div.chapter, div.article {
+  display: block;
+  margin-bottom: 2em;
+}
+/* ==Poetry==
+Wrap poems in <div class="poem"> tags and <div class="stanza"> tags when appropriate.
+Treat lines as <p> to allow for hanging indents when text is re-sized.
+*/
+div.poem {
+  display: block;
+  margin: 1em auto;
+}
+.poem h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+.poem h2 {
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+div.stanza > p {
+  display: block;
+  margin: 0 4em 0 4em;
+  text-align: left;
+  text-indent: -1em;
+  padding-left: 1em;
+  white-space: pre-wrap;
+}
+div.stanza-italics > p {
+  display: block;
+  margin: 0 20% 0 20%;
+  text-align: left;
+  text-indent: -1em;
+  padding-left: 1em;
+  white-space: pre-wrap;
+}
+div.stanza-italics em {
+  font-style: normal;
+  text-indent: -1em;
+}
+/* Letters */
+div.letter {
+  padding-bottom: 2em;
+}
+.letter > h1 {
+  font-variant: small-caps;
+  margin-bottom: 1em;
+}
+.salutation {
+  font-style: italic;
+  text-indent: 1em;
+  margin-bottom: 1em;
+}
+.signature {
+  font-style: italic;
+  margin-bottom: 1em;
+  text-align: right;
+}
+.signature em, .salutation em {
+  font-variant: small-caps;
+}
+div.postscript {
+  margin-left: 3em;
+}
+div.postscript > p {
+  text-indent: -1em;
+}
+/* Footnotes & Citations
+Include footnotes in a <section role="doc-endnotes"> tag. Order notes in a list. Each <li> item needs < role="doc-endnote" id=@@> and end with this return link: &emsp; <a href="#ref-@@">Back</a>. linked phrase preferred over linked superscript character. Include in reference <a> tag: id="ref-##" href="note-##". At the page bottom, include the <div class="
+*/
+[role="doc-endnotes"], section.endnotes {
+  border-top: 1px solid black;
+  margin: 1.5em 2em 0 0;
+  padding-top: 1.5em;
+}
+mark, mark.reference {
+  background-color: transparent;
+  font-size: smaller;
+  vertical-align: super;
+}
+.footnotes > p {
+  margin-bottom: 1em;
+}
+.work-cited, .hanging-indent {
+  padding-bottom: 1em;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+li[role="doc-endnote"] {
+  text-indent: 0;
+  margin-bottom: 1.5em;
+}
+cite {
+  font-style: normal;
+}
+/* 
+Breaks 
+The <br/> tag creates a line break and should be used inside another element, such as a <p>. Poetry is the most common use of the <br/> tag.
+Use <div class="small-break" /> to indicate DECORATIVE space between elements. Use <hr class="transition"> when the space indicates a context change. Use <p class="page-break"> to control breaks on certain ereaders.   
+*/
+div.small-break {
+  padding-top: 1em;
+}
+hr.transition {
+  margin: 0em 1em;
+  height: 0em;  
+}
+.page-break {
+  page-break-before: always;
+}
+/* 
+== Columns ==
+.row:after clear floats the columns;
+ */
+.column {
+  float: left;
+  width: 50%;
+}
+.col-left {
+  float: left;
+  width: 48%;
+}
+.col-right {
+  float: right;
+  width: 48%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 
+In-line styles:
+For acessibility, <em> (emphasis) and <strong> are preferred to <i> and <b> because they are descritive of the styling's purpose.
+When styling is not particularly meaningful, such as italicizing the titles of books, the <i> and <b> tag are appropriate. 
+This section also includes styling for nested changes. For example, in an italicized heading, using the <em> tag will produce Small Caps. This simplifies the semantic markup.   
+*/
+span.first-word {
+  font-variant: small-caps;
+}
+.centered {
+  text-align: center;
+}
+b, strong, span.bold {
+  font-weight: 700;
+}
+i, em, .italics {
+  font-style: italic;
+  font-weight: 400;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+strong > em, h3.subtitle > strong {
+  font-variant: small-caps;
+}
+h2.subtitle > em {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+strong.clear, em.clear {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+.rubric	{
+  font-size: .9em;
+}

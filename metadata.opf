@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Democracy in America: Volume I</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Tocqueville, Alexis de">Alexis de Tocqueville</dc:creator>
+    <dc:identifier opf:scheme="uuid" id="uuid_id">b15510b2-9758-40e2-b97d-2b75dc8fd5ea</dc:identifier>
+    <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.3.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:publisher>City University of New York</dc:publisher>
+    <dc:date>2020-01-24T05:00:00+00:00</dc:date>
+    <dc:language>en</dc:language>
+    <dc:identifier opf:scheme="calibre">e2ce1ab1-c366-47d3-b87b-b232a7d033d6</dc:identifier>
+    <meta content="{&quot;Alexis de Tocqueville&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+    <meta name="calibre:title_sort" content="Democracy in America: Volume I"/>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="styles.css" id="id" media-type="text/css"/>
+    <item href="001-title-page.xhtml" id="id1" media-type="application/xhtml+xml"/>
+    <item href="002-chapter1.xhtml" id="id2" media-type="application/xhtml+xml"/>
+    <item href="003-chapter2.xhtml" id="id3" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id1"/>
+    <itemref idref="id2"/>
+    <itemref idref="id3"/>
+  </spine>
+  <guide/>
+</package>
